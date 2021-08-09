@@ -22,6 +22,14 @@ const onSubmitHandler = e => {
 
 return (
   <form onSubmit={onSubmitHandler}>
+    <p>
+      <label>First Name</label>
+      <input type="text" onChange={(e)=>setFirstName(e.target.value)}/>
+    </p>
+    <p>
+      <label>Last Name</label>
+      <input type="text" onChange={(e)=>setLirstName(e.target.value)}/>
+    </p>
     
   </form>
 )
