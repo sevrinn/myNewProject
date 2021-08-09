@@ -30,6 +30,6 @@ return (
       <label>Last Name</label>
       <input type="text" onChange={(e)=>setLastName(e.target.value)}/>
     </p>
-
+    <input type="submit"/>
   </form>
 )
