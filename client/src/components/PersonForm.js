@@ -28,8 +28,8 @@ return (
     </p>
     <p>
       <label>Last Name</label>
-      <input type="text" onChange={(e)=>setLirstName(e.target.value)}/>
+      <input type="text" onChange={(e)=>setLastName(e.target.value)}/>
     </p>
-    
+
   </form>
 )
