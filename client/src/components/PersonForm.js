@@ -1,6 +1,7 @@
 import React, { useState} from 'react'
 import axios from 'axios';
 
+const PersonForm = () => {
 //keep track of what is being typed via useState hook
 const [firstName, setFirstName] = useState("");
 const [lastName, setLastName] = useState("");
@@ -33,3 +34,4 @@ return (
     <input type="submit"/>
   </form>
 )
+}
