@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Main from './views/Main';
 
 function App() {
   return (
     <div className="App">
-      <h1>i'm working</h1>
+      <Main />
     </div>
   );
 }
